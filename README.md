@@ -1,14 +1,14 @@
-# node6-chrome
+# node-chrome
 
 Dockerfile for nodejs + chrome.
 
 ## On docker hub
 
-https://hub.docker.com/r/axway/node6-chrome
+https://hub.docker.com/axway/node-chrome
 
 This [Dockerfile](/Dockerfile) contains:
 
-- node: 6.x
+- node: 6.x (boron)
 - npm: (bundled with node)
 - google-chrome: stable
 
