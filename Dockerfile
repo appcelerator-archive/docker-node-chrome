@@ -1,5 +1,5 @@
-FROM node:6
-LABEL name="node6-chrome"
+FROM node:carbon
+LABEL name="node8-chrome"
 
 # Install Chrome
 
