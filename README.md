@@ -13,5 +13,5 @@ This [Dockerfile](~/Dockerfile) contains:
 - yarn: 1.3.2
 - google-chrome: stable
 
-## Lincense
+## License
 MIT
