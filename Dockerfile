@@ -16,10 +16,6 @@ RUN set -xe \
     && apt-get install -y google-chrome-stable
 ENV CHROME_BIN /usr/bin/google-chrome
 
-RUN sysctl -n -w fs.inotify.max_user_watches=999999 && \
-    sysctl -n -w fs.inotify.max_user_instances=999999 && \
-    sysctl -n -w fs.inotify.max_queued_events=999999
-
 # Log versions
 RUN set -x \
     && node -v \
