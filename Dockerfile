@@ -8,6 +8,10 @@ RUN set -xe \
     && apt-get update \
     && apt-get install -y yarn
 
+# Download Cypress
+RUN set -xe \
+    && wget -q -O /var/tmp/cypress-3.0.2.zip https://download.cypress.io/desktop/3.0.2?platform=linux64
+
 # Log versions
 RUN set -x \
     && node -v \
