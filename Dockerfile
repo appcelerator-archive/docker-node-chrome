@@ -1,4 +1,4 @@
-FROM cypress/browsers:chrome67
+FROM cypress/browsers:chrome69
 LABEL name="node8-chrome"
 
 # Install Yarn
